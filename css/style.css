@@ -21,6 +21,15 @@
  *	Reset Class Css
  *
  *===================*/
+
+ .jus{
+
+  margin-left: 3%;
+  margin-right: 3%
+  ;display: block;
+  text-align: justify;
+ }
+
 body {
   line-height: 24px;
   font-size: 14px;
@@ -113,6 +122,75 @@ a:active {
   font-weight: 300;
   color: #817C7C;
 }
+
+
+
+
+
+
+
+
+
+
+.title2 {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.title2 h2 {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+
+.title2 h2:before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #80d6a3;
+    position: absolute;
+    top: 12px;
+    left: -60px;
+}
+.title2 h2:after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #80d6a3;
+    position: absolute;
+    top: 12px;
+    right: -60px;
+}
+.title2 p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #817C7C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #mixed-items .mix {
   display: none;
 }
@@ -201,16 +279,16 @@ header .navbar {
   bottom: 12px;
   width: 0;
   height: 1px;
-  background: #80d6a3;
+  background: #1976d2;
   transition: 0.3s;
 }
 .menu a:hover {
   background: transparent;
-  color: #80d6a3;
+  color: #1976d2;
 }
 
 .menu .active a {
-  color: #80d6a3;
+  color: #1976d2;
 }
 
 .menu .active a:before{
@@ -612,7 +690,7 @@ header .navbar {
 }
 
 #team .block:hover {
-  border: 3px solid #80d6a3;
+  border: 3px solid #1976d2;
 
 }
 #team .block:hover .team-overlay {
