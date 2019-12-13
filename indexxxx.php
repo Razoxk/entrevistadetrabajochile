@@ -542,11 +542,11 @@
 						<h2>Contacto</h2>
 					</div>				
 					<div class="col-md-6">
-						<form>
-                            <input type="text" class="form-control" name="txtnombre"placeholder="Nombre (*)">
-							<input type="text" class="form-control" name="txtcorreo" placeholder="Correo (*)">
+						<form id="contacto-form" method="POST" action="enviar2.php">
+                            <input type="text" class="form-control" required="required" name="txtnombre"placeholder="Nombre (*)">
+							<input type="text" class="form-control" required="required"name="txtcorreo" placeholder="Correo (*)">
 							<input type="text" class="form-control" name="txtnumero" placeholder="Telefono">
-							<textarea class="form-control" rows="3" name="txtmensaje" placeholder="Mensaje (*)"></textarea>
+							<textarea class="form-control" rows="3" required="required"name="txtmensaje" placeholder="Mensaje (*)"></textarea>
 							<h3>(*) Campos Obligatorios</h3>
                             <button class="btn btn-default" type="submit">Enviar</button>
                         </form>
