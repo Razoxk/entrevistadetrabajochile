@@ -173,6 +173,48 @@ a:active {
 
 
 
+.title3 {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.title3 h2 {
+  color: #333;
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+
+.title3 h2:before {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #1976d2;
+    position: absolute;
+    top: 12px;
+    left: -12px;
+}
+.title3 h2:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #1976d2;
+    position: absolute;
+    top: 12px;
+    right: -12px;
+}
+.title3 p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #817C7C;
+}
+
+
+
+
+
 
 
 
@@ -298,6 +340,63 @@ header .navbar {
 .menu a:hover:before {
   width: 25px;
 }
+
+
+
+
+
+
+
+.menu1 a {
+  color: #333;
+  transition: 0.3s;
+  position: relative;
+  font-size: 16px;
+}
+.menu1 a:before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  width: 0;
+  height: 1px;
+  background: #1976d2;
+  transition: 0.3s;
+}
+.menu1 a:hover {
+  background: transparent;
+  color: #1976d2;
+}
+
+.menu1 .active a {
+  color: #1976d2;
+}
+
+.menu1 .active a:before{
+  width: 0px;
+}
+
+.menu1 a:hover:before {
+  width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =================
    Home page style
    ================= */
