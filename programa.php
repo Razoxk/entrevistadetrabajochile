@@ -25,40 +25,44 @@
 	<body style="padding-top: 320px;" id="top">
 	
 		
-        <header id="navigation" class="navbar-fixed-top animated-header">
-            <div class="container">
-				<div align="center"><img src="img/logo1.jpg" class="img-fluid img-responsive " style="align:center;" alt="Responsive image" height="200" width="300" alt=""></div>
-				<div>
-					<h5 style="text-align: right;">contacto@entrevistadetrabajochile.cl<br>
-						<a href="tel:+56228400979"> +562 28400979 📞</a> <br>
-						Av. Apoquindo 6410 of. 212 <br>
-						Las Condes - Santiago</h5>
-				</div>
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo  -->
-					
-						
-					
-					<!-- /logo -->
-                </div>
+  <header id="navigation" class="navbar-fixed-top animated-header">
 
-                <?php
-				
-              include ("navbar.php");
 
-              ?>
-				
+<?php
+
+include ("header.php");
+
+?>
+
+
+    
+        <div class="container">			
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+                </button>
+      <!-- /responsive nav button -->
+      
+      <!-- logo  -->
+      
+        
+      
+      <!-- /logo -->
             </div>
-        </header>
+
+    <?php
+    
+    include ("navbar.php");
+
+    ?>
+
+    
+        </div>
+    </header>
 
 
 	<div class="wrapper">
@@ -75,77 +79,41 @@
                 </div>
                  
                 <br><br>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators" >
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                  </ol>
-              
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active" style="padding-right: 1200px;">
-                      <h1 class="jus" style="color: white;padding-top: 100px;">Programa 1</h1><br>
-                      <h2 class="jus" style="color: white; padding-bottom: 200px;">
-                        Evaluación Psicológica con Test <br> <br>
-                        (2 Sesiones - Duración Total: 2hrs.)
-                        </h2>
-                    </div>
-              
-                    <div class="item">
-                        <h1 class="jus" style="color: white;padding-top: 100px;">Programa 2</h1><br>
-                        <h2 class="jus" style="color: white; padding-bottom: 200px;">
-                            Preparación Entrevista de Trabajo<br> <br>
-                          (2 Sesiones - Duración Total: 3hrs.)
-                          </h2>
-                    </div>
-                  
-                    <div class="item">
-                        <h1 class="jus" style="color: white;padding-top: 100px;">Programa 3</h1><br>
-                        <h2 class="jus" style="color: white; padding-bottom: 167px;">
-                            Evaluación Psicológica con Test + Diseño de CV + <br>
-                            Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin.								
-                            <br> <br>
-                            (2 sesiones - Duración Total: 3,5 hrs.)
-                          </h2>
-                    </div>
-                    
-                    <div class="item">
-                        <h1 class="jus" style="color: white;padding-top: 100px;">Programa 4</h1><br>
-                      <h2 class="jus" style="color: white; padding-bottom: 167px;">
-                        Preparación Entrevista de Trabajo + <br>
-                        Evaluación Psicológica con Test.
-                        <br> <br>
-                        (2 sesiones - Duración Total: 4hrs.)
-                        </h2>
-                      </div>
+                <div class="container" style="margin-top:-70px;">
+    		
+                <div class="row"  style="opacity: 0.7;background-color:#1976d2;padding-top:20px;">
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 1</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test<br>
+                                                                                                                                (2 Sesiones - Duración Total: 2hrs.)
+                                                                                                                                </h4></div>
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 4</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo + <br>
+                                                                                                                                  Evaluación Psicológica con Test. <br>
+                                                                                                                                  (2 sesiones - Duración Total: 4hrs.)
+                                                                                                                                </h4></div>
+                </div>
 
-                      <div class="item">
-                        <h1 class="jus" style="color: white;padding-top: 100px;">Programa 5</h1><br>
-                      <h2 class="jus" style="color: white; padding-bottom: 167px;">
-                        Preparación Entrevista de Trabajo +  Diseño de CV +<br>
-                        Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin 							
-                        <br> <br>
-                        (3 sesiones - Duración Total: 5hrs.)
-                        </h2>
-                      </div>
+                <div class="row"  style="opacity: 0.7;background-color:#1976d2;">
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 2</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo<br>
+                                                                                            (2 sesiones - Duración Total: 3 hrs.)</h4></div>
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 5</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  Diseño de CV +<br>
+                                                                                                                                  Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin<br>
+                                                                                                                                  (3 sesiones - Duración Total: 5hrs.)
+                                                                                                                                </h4></div>
+                </div>
 
-                      <div class="item">
-                        <h1 class="jus" style="color: white;padding-top: 100px;">Programa Integral</h1><br>
-                      <h2 class="jus" style="color: white; padding-bottom: 134px;">
-                        Preparación Entrevista de Trabajo +  <br>
-                        Diseño de CV + Evaluación Psicológica con Test + <br>
-                        Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin.
-                        
-                        <br> <br>
-                        (3 sesiones - Duración Total: 6hrs.)
-                        </h2>
-                      </div>
-                  </div>
+                <div class="row"  style="opacity: 0.7;background-color:#1976d2;padding-bottom:20px; ">
+                  <div class="col-md-6"style="margin:auto;"><h2 style="color:white;">Programa 3</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test + Diseño de CV +<br>  
+                                                                                                                                Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin.<>
+                                                                                                                                (2 sesiones - Duración Total: 3,5 hrs.)
+                                                                                                                                </h4></div>
+                  <div class="col-md-6"style="margin:auto;"><h2 style="color:white;">Programa Integral</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  <br>
+                                                                                                                                 Diseño de CV + Evaluación Psicológica con Test +<br>
+                                                                                                                                  Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin.<br>
+                                                                                                                                 (3 sesiones - Duración Total: 6hrs.)
+                                                                                                                                </h4></div>
+                </div>
+                <br><br><br>
+              </div>
+                
               
                   <!-- Left and right controls -->
                  
@@ -165,14 +133,9 @@
     include ("contacto1.php");
     ?>
 		<!-- Footer -->
-<footer>
- 
-	<h3 style="color: white;">contacto@entrevistadetrabajochile.cl <br><br>
-		<a href="tel:+56228400979" style="color: white;"> +562 28400979 📞</a> <br><br>
-		Av. Apoquindo 6410 of. 212 <br><br>
-		Las Condes - Santiago.</h3>
-	
-  </footer>
+    <?php
+			include ("footer.php");
+			?>
   <!-- Footer -->
 	</div>
 

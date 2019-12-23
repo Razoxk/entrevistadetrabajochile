@@ -25,42 +25,44 @@
 	<body style="padding-top: 320px;" id="top">
 	
 		
-        <header id="navigation" class="navbar-fixed-top animated-header">
-            <div class="container">
-				<div align="center"><img src="img/logo1.jpg" class="img-fluid img-responsive " style="align:center;" alt="Responsive image" height="200" width="300" alt=""></div>
-				<div>
-					<h5 style="text-align: right;">contacto@entrevistadetrabajochile.cl<br>
-						<a href="tel:+56228400979"> +562 28400979 📞</a> <br>
-						Av. Apoquindo 6410 of. 212 <br>
-						Las Condes - Santiago</h5>
-				</div>
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo  -->
-					
-						
-					
-					<!-- /logo -->
-                </div>
+	<header id="navigation" class="navbar-fixed-top animated-header">
 
-				<!-- main nav  -->
-				<?php
-				
-				include ("navbar.php");
 
-				?>
-				<!-- /main nav -->
+<?php
+
+include ("header.php");
+
+?>
+
+
+		
+	<div class="container">			
+		<div class="navbar-header">
+			<!-- responsive nav button -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- /responsive nav button -->
+			
+			<!-- logo  -->
+			
 				
-            </div>
-        </header>
+			
+			<!-- /logo -->
+		</div>
+
+		<?php
+		
+		include ("navbar.php");
+
+		?>
+
+		
+	</div>
+</header>
 
 
 	<div class="wrapper">	
@@ -68,7 +70,7 @@
 
         
 	<section id="contact-form">
-			<div class="container">
+	<div class="container" style="margin-top:-50px;">
 				<div class="row">
 					<div class="title">
 						<h2>Contacto</h2>
@@ -96,14 +98,9 @@
 			</div>
 		</section>
 		<!-- Footer -->
-<footer>
- 
-	<h3 style="color: white;">contacto@entrevistadetrabajochile.cl <br><br>
-		<a href="tel:+56228400979" style="color: white;"> +562 28400979 📞</a> <br><br>
-		Av. Apoquindo 6410 of. 212 <br><br>
-		Las Condes - Santiago.</h3>
-	
-  </footer>
+		<?php
+			include ("footer.php");
+			?>
   <!-- Footer -->
 	</div>
 

@@ -25,43 +25,44 @@
 	<body style="padding-top: 320px;" id="top">
 	
 		
-        <header id="navigation" class="navbar-fixed-top animated-header">
-            <div class="container">
-				<div align="center"><img src="img/logo1.jpg" class="img-fluid img-responsive " style="align:center;" alt="Responsive image" height="200" width="300" alt=""></div>
-				<div>
-					<h5 style="text-align: right;">contacto@entrevistadetrabajochile.cl<br>
-						<a href="tel:+56228400979"> +562 28400979 📞</a> <br>
-						Av. Apoquindo 6410 of. 212 <br>
-						Las Condes - Santiago</h5>
-				</div>
+	<header id="navigation" class="navbar-fixed-top animated-header">
+
+
+<?php
+
+include ("header.php");
+
+?>
+
+
+		
+	<div class="container">			
+		<div class="navbar-header">
+			<!-- responsive nav button -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- /responsive nav button -->
 			
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo  -->
-					
-						
-					
-					<!-- /logo -->
-                </div>
-
-				<!-- main nav  -->
-				<?php
+			<!-- logo  -->
+			
 				
-				include ("navbar.php");
+			
+			<!-- /logo -->
+		</div>
 
-				?>
-				<!-- /main nav -->
-				
-            </div>
-        </header>
+		<?php
+		
+		include ("navbar.php");
+
+		?>
+
+		
+	</div>
+</header>
 	<div class="wrapper">
 		
 		
@@ -70,15 +71,15 @@
 
 		
 			<section id="servicios">
-					<div class="container">
+			<div class="container" style="margin-top:50px;">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="title">
 									<h2>Servicios</h2>
 									<p><h3>ENTREVISTA DE TRABAJO</h3><br>
-										<p class="jus">	Sesión individual y personalizada de Simulación de Entrevista de Trabajo en la que te enseñamos a argumentar con convicción y a demostrar una Propuesta de Valor diferenciadora, logrando un alto nivel  de impacto en los entrevistadores.
+										<p class="jus">	Sesión <strong>individual y personalizada</strong> de Simulación de Entrevista de Trabajo en la que te enseñamos a argumentar con convicción y a demostrar una Propuesta de Valor diferenciadora, logrando un alto nivel  de impacto en los entrevistadores.<br><br>
 											
-											Te damos retroalimentación inmediata, con herramientas prácticas, breves y 100% focalizadas en la experiencia profesional y cargos de postulación. Señalamos las áreas de mejora en la comunicación no verbal y lenguaje, enseñando también a argumentar las “debilidades” de forma constructiva, para que no perjudiquen al candidato en su entrevista.
+											Te damos <strong>retroalimentación inmediata</strong>, con herramientas prácticas, breves y 100% focalizadas en la experiencia profesional y cargos de postulación. Señalamos las áreas de mejora en la comunicación no verbal y lenguaje, enseñando también a argumentar las “debilidades” de forma constructiva, para que no perjudiquen al candidato en su entrevista.
 											<br><br><div align="center"><img class="img-fluid img-responsive" alt="Responsive image" src="img/img3.jpg " height="300" width="500" alt=""></div>
 										</p><br>
 											 
@@ -101,14 +102,9 @@
     include ("contacto1.php");
     ?>
 		<!-- Footer -->
-<footer>
- 
-	<h3 style="color: white;">contacto@entrevistadetrabajochile.cl <br><br>
-		<a href="tel:+56228400979" style="color: white;"> +562 28400979 📞</a> <br><br>
-		Av. Apoquindo 6410 of. 212 <br><br>
-		Las Condes - Santiago.</h3>
-	
-  </footer>
+		<?php
+			include ("footer.php");
+			?>
   <!-- Footer -->
 	</div>
 

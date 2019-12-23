@@ -11,11 +11,11 @@
 							 Servicios
 							</a>
 							
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style=" width: 400px;margin: auto;padding-left:10px;">
-							  <a class="dropdown-item" href="servicio1.php" style="padding-left: 10px;">ENTREVISTA DE TRABAJO </a><br>
-							  <a class="dropdown-item" href="servicio2.php" style="padding-left: 10px;">PLAN DE BUSQUEDA DE TRABAJO</a><br>
-							  <a class="dropdown-item" href="servicio3.php" style="padding-left: 10px;">EVALUACION PSICOLOGICA </a><br>
-							  <a class="dropdown-item" href="servicio4.php" style="padding-left: 10px;">DISEÑO DE CURRICULUM VITAE </a><br>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style=" width: 250px;margin: auto;padding-left:10px;">
+							  <a class="dropdown-item" href="servicio1.php" style="padding-left: 10px;">Entrevista de trabajo</a><br>
+							  <a class="dropdown-item" href="servicio2.php" style="padding-left: 10px;">Plan de búsqueda de trabajo</a><br>
+							  <a class="dropdown-item" href="servicio3.php" style="padding-left: 10px;">Evaluación Psicológica</a><br>
+							  <a class="dropdown-item" href="servicio4.php" style="padding-left: 10px;">Diseño de Currículum Vitae </a><br>
 							  
 							</div>
 						  </li>

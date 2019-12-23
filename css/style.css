@@ -401,7 +401,7 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url('../img/banner.png');
+  background: url('../img/banner.PNG');
   background-size: cover;
   padding: 250px 0;
   position: relative;
@@ -789,7 +789,7 @@ header .navbar {
 }
 
 #team .block:hover {
-  border: 3px solid #1976d2;
+  border: 3px solid white;
 
 }
 #team .block:hover .team-overlay {
