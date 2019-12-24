@@ -74,13 +74,15 @@ include ("header.php");
 					<div class="title">
 						<h2>Nuestro Equipo</h2>
 					</div>
-					<div class="col-md-12 col-sm-4 col-xs-12">
+					<div align="center" style="margin-top:-55px;"> <img src="img/ne.jpg"  class="img-fluid img-responsive" alt="Responsive image"></div><br><br><br>
+					
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
 								<table class="jus">
 									<tbody>
-									<tr>
+									<tr><p class="jus">Somos un equipo de <strong>Psicólogas Laborales – Head Hunters con 20 años de experiencia</strong> como responsables de Procesos de Selección. Brindamos una asesoría laboral orientada a resultados ya que contamos con una visión estratégica y en permanente actualización, respecto de los factores clave que garantizan el <strong>éxito en la búsqueda de trabajo y en los procesos de selección.</strong></p><br><br><br>
 									<td style="width: 100000000000000px"><h3>Claudia Rubí H.</h3><br><h4><strong>Fundadora & Directora Ejecutiva</strong></h4></td>
 									<td ><img src="img/1.PNG" style="width: 78px; height: 78px;"></td>
 									</tr>
@@ -91,7 +93,7 @@ include ("header.php");
 								<br><br>
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-4 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
@@ -108,7 +110,7 @@ include ("header.php");
 								<br><br>
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-4 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
@@ -127,7 +129,7 @@ include ("header.php");
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 col-sm-4 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
@@ -144,7 +146,7 @@ include ("header.php");
 								<br><br>
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-4 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
