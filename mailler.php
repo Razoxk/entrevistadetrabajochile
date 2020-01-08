@@ -24,7 +24,7 @@
   $mail->FromName = "Contacto Web Entrevista de Trabajo Chile";
   $mail->Timeout=5;
 
-  $mail->AddAddress("porellana@tecnotec.cl");
+  $mail->AddAddress("contacto@entrevistadetrabajochile.cl");
 //  $mail->AddCC($_POST['email']);
   $mail->Subject = "Web Entrevista de Trabajo Chile";
   $mail->Body = "

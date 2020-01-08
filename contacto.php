@@ -82,7 +82,7 @@ include ("header.php");
 							<input type="text" class="form-control" name="txtnumero" placeholder="Telefono">
 							<textarea class="form-control" rows="3" name="txtmensaje" placeholder="Mensaje (*)"></textarea>
 							<h3>(*) Campos Obligatorios</h3>
-                            <button class="btn btn-default" type="submit">Enviar</button><br><br>
+                            <button class="btn btn-default" type="submit" onclick='alert("Hemos recibido su mensaje. Le contactaremos a la brevedad.")'>Enviar</button><br><br>
                         </form>
 					</div>
 					<div class="col-md-6 col">

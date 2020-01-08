@@ -82,33 +82,35 @@ include ("header.php");
                 <div class="container" style="margin-top:-70px;">
     		
                 <div class="row"  style="opacity: 0.7;background-color:#1976d2;padding-top:20px;">
-                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 1</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test<br>
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;"> <br> Programa 1</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test<br>
                                                                                                                                 (2 Sesiones - Duración Total: 2hrs.)
                                                                                                                                 </h4></div>
-                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 4</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo + <br>
-                                                                                                                                  Evaluación Psicológica con Test. <br>
-                                                                                                                                  (2 sesiones - Duración Total: 4hrs.)
-                                                                                                                                </h4></div>
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;"><br> Programa 2</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo<br>
+                                                                                            (2 sesiones - Duración Total: 3 hrs.) <br></h4></div>
+                  
                 </div>
 
                 <div class="row"  style="opacity: 0.7;background-color:#1976d2;">
-                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 2</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo<br>
-                                                                                            (2 sesiones - Duración Total: 3 hrs.)</h4></div>
-                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;">Programa 5</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  Diseño de CV +<br>
-                                                                                                                                  Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin<br>
-                                                                                                                                  (3 sesiones - Duración Total: 5hrs.)
+                <div class="col-md-6"style="margin:auto;"><h2 style="color:white;"> <br> Programa 3</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test + Diseño de CV +<br>  
+                                                                                                                                Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin.
+                                                                                                                                (2 sesiones - Duración Total: 3,5 hrs.) <br>
                                                                                                                                 </h4></div>
+                <div class="col-md-6" style="margin:auto;"><h2 style="color:white;"> <br> Programa 4</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo + <br>
+                                                                                                                                  Evaluación Psicológica con Test. <br>
+                                                                                                                                  (2 sesiones - Duración Total: 4hrs.) <br>
+                                                                                                                                </h4></div>
+                
                 </div>
 
                 <div class="row"  style="opacity: 0.7;background-color:#1976d2;padding-bottom:20px; ">
-                  <div class="col-md-6"style="margin:auto;"><h2 style="color:white;">Programa 3</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test + Diseño de CV +<br>  
-                                                                                                                                Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin.<>
-                                                                                                                                (2 sesiones - Duración Total: 3,5 hrs.)
+                  <div class="col-md-6" style="margin:auto;"><h2 style="color:white;"> <br> Programa 5</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  Diseño de CV +<br>
+                                                                                                                                  Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin<br>
+                                                                                                                                  (3 sesiones - Duración Total: 5hrs.) <br>
                                                                                                                                 </h4></div>
-                  <div class="col-md-6"style="margin:auto;"><h2 style="color:white;">Programa Integral</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  <br>
+                  <div class="col-md-6"style="margin:auto;"><h2 style="color:#d32f2f;-webkit-text-stroke: 0.4px white;"> <br> Programa Integral</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  <br>
                                                                                                                                  Diseño de CV + Evaluación Psicológica con Test +<br>
                                                                                                                                   Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin.<br>
-                                                                                                                                 (3 sesiones - Duración Total: 6hrs.)
+                                                                                                                                 (3 sesiones - Duración Total: 6hrs.) <br>
                                                                                                                                 </h4></div>
                 </div>
                 <br><br><br>

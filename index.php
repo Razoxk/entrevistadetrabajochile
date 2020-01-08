@@ -167,9 +167,11 @@
 				</div>
 			</section><br><br>
 			
+			<div class="container">
 			<?php
-    include ("contacto1.php");
-    ?>
+				include ("contacto1.php");
+			?>
+			</div>
 		<!-- Footer -->
 			<?php
 			include ("footer.php");
