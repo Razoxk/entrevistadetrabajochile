@@ -2,7 +2,7 @@
 			    <!-- main nav  -->
                
 
-                <nav class="collapse  navbar-collapse navbar-right"  role="navigation">
+                <nav class="collapse  navbar-collapse navbar-right"  role="navigation" style="">
                     <ul id="nav" class="nav navbar-nav menu">
                         <li><a href="index.php">Inicio</a></li>
                         <ul id="nav" class="nav navbar-nav menu1">

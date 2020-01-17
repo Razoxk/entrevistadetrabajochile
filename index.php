@@ -65,13 +65,12 @@
         </header>
 
 
-	<div class="wrapper" style="margin-top: 10%;">
+	<div class="wrapper" style="margin-top: 6%;">
 		<section id="banner">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="block" align="center">
-							<h1 style="color:white;">Bienvenidos a Entrevista de Trabajo Chile </h1>	
+						<div class="block" align="center">	
 							<h1 style="color:white;">Te ayudamos a encontrar un nuevo trabajo</h1>						
 						</div>
 					</div>
@@ -81,23 +80,47 @@
 	            <a id="scroll" href="#" class="scroll"></a>
 	        </div>
 		</section>
-		<section id="features" >
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="title" style="margin-top: -50px;">
-							<h2>Sobre Nosotras</h2><br><br>
-							<p class="jus">Contamos con <strong>20 años de experiencia</strong> en Procesos de Búsqueda y Selección y somos expertas en el desarrollo de estrategias de Empleabilidad dirigidas a Ejecutivos y Profesionales que buscan trabajo en Chile o un Cambio Laboral. 
+	
+		<section id="features" style="margin-top:-8%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="block">
+								<div class="container">
+								<div class="title"></div>
+										<p>Empresa formada en 2011 por Psicólogas Laborales – Head Hunters<br>
+										A la fecha, 2500 profesionales han confiado en nuestra amplia Expertise en temas de Empleabilidad
+										</p><br>
+										<p class="jus">
+										<h4 class="hidden">Conocimiento del Mercado:</h4>
+										Contamos con <strong>20 años de experiencia</strong> en Procesos de Búsqueda y Selección y somos expertas en el desarrollo de estrategias de Empleabilidad dirigidas a Ejecutivos y Profesionales que buscan trabajo en Chile o un Cambio Laboral. 
 								Nos focalizamos en el proceso completo de la Búsqueda de Trabajo y les asesoramos de forma individual y personalizada para que logren su objetivo con mayor agilidad y posibilidades de éxito, aplicando una metodología breve, de alta efectividad y orientada a resultados. 
-								</p><br>
-								<h3 class="">Empresa formada en 2011 por Psicólogas Laborales – Head Hunters<br>
-									A la fecha, 2500 profesionales han confiado en nuestra amplia Expertise en temas de Empleabilidad</h3><br>
-								<p class="jus">Conocemos en profundidad las competencias técnicas y personales que las empresas buscan y valoran en las distintas industrias y cargos, que les lleva finalmente, a tomar una decisión de contratación.</p><BR></BR>
+										</p><br>
+										<p class="jus">
+										<h4 class="hidden">Metodología:</h4>
+										Conocemos en profundidad las competencias técnicas y personales que las empresas buscan y valoran en las distintas industrias y cargos, que les lleva finalmente, a tomar una decisión de contratación.
+										</p><br>
+								</div>
+								
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 		<div class="scrolldown">
 	            <a id="scroll" href="#features" class="scroll"></a>
 	        </div>

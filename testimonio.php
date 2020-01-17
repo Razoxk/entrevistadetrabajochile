@@ -140,7 +140,7 @@ include ("header.php");
 			<div class="container">
 				<div class="row">
 					<div class="title">
-						<h2>TESTIMONIOS</h2>						
+						<h2 class="hidden">TESTIMONIOS</h2>						
 					</div>
 					<div class="col col-md-6">
 						<div class="media wow fadeInLeft" data-wow-delay=".3s">

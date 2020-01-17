@@ -107,7 +107,7 @@ include ("header.php");
                                                                                                                                   Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin<br>
                                                                                                                                   (3 sesiones - Duración Total: 5hrs.) <br>
                                                                                                                                 </h4></div>
-                  <div class="col-md-6"style="margin:auto;"><h2 style="color:#d32f2f;-webkit-text-stroke: 0.4px white;"> <br> Programa Integral</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  <br>
+                  <div class="col-md-6"style="margin:auto;"><h2 style="color:#800040;"> <br> Programa Integral</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo +  <br>
                                                                                                                                  Diseño de CV + Evaluación Psicológica con Test +<br>
                                                                                                                                   Plan de Búsqueda de Trabajo. Entrenamiento en Linkedin.<br>
                                                                                                                                  (3 sesiones - Duración Total: 6hrs.) <br>

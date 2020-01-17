@@ -146,7 +146,7 @@ include ("header.php");
 								<br><br>
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="col-md-12 col-sm-12 col-xs-12" style="">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
