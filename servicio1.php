@@ -19,7 +19,14 @@
 		<link rel="stylesheet" href="css/image.css">
 		<link rel="stylesheet" href="css/icon.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/responsive.css">	<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
 
 	</head>
 	<body style="padding-top: 320px;" id="top">
@@ -74,9 +81,9 @@ include ("header.php");
 			<div class="container" style="margin-top:50px;">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="title">
-									<h2>Servicios</h2>
-									<p><h3>ENTREVISTA DE TRABAJO</h3><br>
+								<div class="">
+									<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;" >Servicios</h2>
+									<p><h3 style="padding-top:20px; text-align:center;">ENTREVISTA DE TRABAJO</h3><br>
 										<p class="jus">	Sesión <strong>individual y personalizada</strong> de Simulación de Entrevista de Trabajo en la que te enseñamos a argumentar con convicción y a demostrar una Propuesta de Valor diferenciadora, logrando un alto nivel  de impacto en los entrevistadores.<br><br>
 											
 											Te damos <strong>retroalimentación inmediata</strong>, con herramientas prácticas, breves y 100% focalizadas en la experiencia profesional y cargos de postulación. Señalamos las áreas de mejora en la comunicación no verbal y lenguaje, enseñando también a argumentar las “debilidades” de forma constructiva, para que no perjudiquen al candidato en su entrevista.

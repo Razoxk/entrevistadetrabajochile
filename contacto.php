@@ -22,6 +22,15 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/captcha.css">
 
+		<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
+
 	</head>
 	<body style="padding-top: 320px;" id="top">
 	
@@ -70,11 +79,11 @@ include ("header.php");
 
 
         
-	<section id="contact-form">
+	<section id="contact-form" style="margin-top:-50px;">
 	<div class="container" style="margin-top:-50px;">
 				<div class="row">
-					<div class="title">
-						<h2>Contacto</h2>
+					<div class="">
+						<h2  style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;">Contacto</h2><br> <br>
 					</div>				
 					<div class="col-md-6">
 						<form id="contacto-form" method="POST" action="mailler.php" onsubmit="return checkform(this);">

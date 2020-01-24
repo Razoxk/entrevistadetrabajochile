@@ -20,6 +20,15 @@
 		<link rel="stylesheet" href="css/icon.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
+
 
 	</head>
 	<body style="padding-top: 320px;" id="top">
@@ -68,12 +77,12 @@ include ("header.php");
 	<div class="wrapper">	
 
 
-        <section id="team" style="margin-bottom:-150px;">
+        <section id="team" style="margin-bottom:-150px;margin-top:-50px;">
 		<div class="container" style="margin-top:-30.5px;">
 				<div class="row">
-					<div class="title">
-						<h2>Nuestro Equipo</h2>
-					</div>
+					<div class="">
+						<h2   style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;">Nuestro Equipo</h2>
+					</div><br><br><br>
 					<div align="center" style="margin-top:-55px;"> <img src="img/ne.jpg"  class="img-fluid img-responsive" alt="Responsive image"></div><br><br><br>
 					
 					<div class="col-md-12 col-sm-12 col-xs-12">

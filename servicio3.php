@@ -3,7 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>entrevistadetrabajochile.cl/</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
 		
 		<!-- google fonts -->
 
@@ -74,12 +81,12 @@ include ("header.php");
 				<div class="container" style="margin-top:50px;">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="title">
-									<h2>Servicios</h2>
+								<div class="">
+									<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;" >Servicios</h2>
 									
 											 
 											
-											<h3>EVALUACION PSICOLOGICA </h3><br>
+											<h3  style="padding-top:20px;text-align:center;">EVALUACION PSICOLOGICA </h3><br>
 											<p class="jus">Aplicamos las pruebas psicológicas más usadas en los procesos de selección para identificar tus competencias personales & profesionales (fortalezas), potencial de desarrollo y áreas de mejora (debilidades), brindándote retroalimentación a partir de los resultados de la evaluación. Es una importante instancia de autoconocimiento que permite <strong>mejorar el desempeño en la entrevista de trabajo.</strong><br>
 												<br><div align="center"><img class="img-fluid img-responsive" alt="Responsive image" src="img/img5.jpg " height="300" width="500" alt=""></div></p><br>
 											 

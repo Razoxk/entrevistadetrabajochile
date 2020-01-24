@@ -21,6 +21,15 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
 
+		<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
+
 	</head>
 	<body style="padding-top: 320px;" id="top">
 	
@@ -74,11 +83,11 @@ include ("header.php");
 					<div class="container" style="margin-top:50px;">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="title">
-									<h2>Servicios</h2>
+								<div class="">
+									<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;"  >Servicios</h2>
 									
 											 
-											<h3>DESARROLLO DE PLAN DE BUSQUEDA DE TRABAJO</h3><br>
+											<h3  style="padding-top:20px;text-align:center;">DESARROLLO DE PLAN DE BUSQUEDA DE TRABAJO</h3><br>
 											 
 										<p class="jus">	Enseñamos a maximizar el potencial de la red de contactos, red de Head Hunters y a posicionar el Perfil Profesional en Linkedin, alcanzando altos niveles de visibilidad.<br>
 											Se enseña a gestionar las 7 mejores estrategias para Búsqueda de Trabajo que permiten acceder a la totalidad de Ofertas Laborales disponibles mensualmente (publicadas y no publicadas).<strong>Incluye entrenamiento para el uso avanzado de Linkedin.</strong><br>

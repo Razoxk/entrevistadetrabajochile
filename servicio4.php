@@ -3,7 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>entrevistadetrabajochile.cl/</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
 		
 		<!-- google fonts -->
 
@@ -74,11 +81,11 @@ include ("header.php");
 			<div class="container" style="margin-top:50px;">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="title">
-									<h2>Servicios</h2>
+								<div class="">
+									<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;" >Servicios</h2>
 									 
 											
-											<h3>DISEÑO DE CURRICULUM VITAE </h3><br>
+											<h3  style="padding-top:20px;text-align:center;">DISEÑO DE CURRICULUM VITAE </h3><br>
 										<p class="jus">	Diseñamos un CV con una estrategia de comunicación de alto impacto, incluyendo propuesta de valor y competencias laborales diferenciadoras, realizando un match al 100% con los cargos de postulación.  El contenido del nuevo CV es más atractivo para los Head Hunters y responsables de áreas de Selección, aumentando tus posibilidades de ser contactado para una entrevista de trabajo. <br>
 											<br><div align="center"><img class="img-fluid img-responsive" alt="Responsive image" src="img/img6.jpg " height="300" width="500" alt=""></div></p>
 											</p>

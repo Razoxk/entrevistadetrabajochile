@@ -20,6 +20,7 @@
 		<link rel="stylesheet" href="css/icon.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+    
 
 	</head>
 	<body style="padding-top: 320px;" id="top">
@@ -71,7 +72,7 @@ include ("header.php");
 		
 	
 
-		<section id="programas">
+  <section id="programas" style="margin-top:-50px;">
             <div class="container-fluid" style="background-image: url('img/img7.jpg'); background-size: cover;height: 100%;width: 100% ;text-align: center;">
                 <br><br>
                 <div class="title2" style="color:white;">

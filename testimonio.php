@@ -3,7 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>entrevistadetrabajochile.cl/</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
 		
 		<!-- google fonts -->
 
@@ -67,12 +74,12 @@ include ("header.php");
 	<div class="wrapper">	
 
 
-        <section id="testimonial">
-		<div class="container" style="margin-top:-30px;">
+	<section id="testimonial" style="margin-top:-50px;">
+		<div class="container" style="margin-top:-27px;">
 				
 				<div class="row">
-					<div class="title">
-						<h2>TESTIMONIOS</h2><br>
+					<div class="">
+						<h2  style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;">Testimonios</h2><br>
 						<div class="container" align="right">
 						<img  src="img/l.jpg" class="rounded" width="300">
 						</div>

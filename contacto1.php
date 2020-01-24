@@ -1,11 +1,20 @@
+<style>
+	
+  </style>
+
 <link rel="stylesheet" href="css/captcha.css">
 
-<section id="contact-form">
+<section id="contact-form" style="margin-top:-50px;">
 			<div class="container">
-				<div class="row">
-					<div class="title">
-						<h2>Contacto</h2>
-					</div>				
+				<div class="col-md-12">
+					<div class="">
+						<h2  style=" 
+	background-color: #1976d2;
+		
+	
+	
+	color: #110E0D;color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px; margin-top:-50px;">Contacto</h2>
+					</div><br>	
 					<div class="col-md-6">
 						<form id="contacto-form" method="POST" action="mailler.php" onsubmit="return checkform(this);">
                             <input type="text" class="form-control" name="txtnombre"placeholder="Nombre (*)">

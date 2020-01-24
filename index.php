@@ -9,6 +9,7 @@
 	
 	#heading { color: #110E0D; }
   </style>
+  style="color:white; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;
 
 <!-- HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
 
@@ -77,7 +78,7 @@
         </header>
 
 
-	<div class="wrapper" style="margin-top: 6%;">
+	<div class="wrapper" style="margin-top: 1%;">
 		<section id="banner">
 			<div class="container-fluid">
 				<div class="row">
@@ -137,9 +138,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="title3" style="margin-top: -80px;">
-							<h2 style="color:white; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;  "  >¿A quiénes está dirigido?</h2>
-						</div>
+						<div class="" style="margin-top: -80px;">
+							<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;">¿A quiénes está dirigido?</h2>
+						</div><br>
 						<div class="block">
 							<div class="container">
 									<ul>
@@ -149,8 +150,8 @@
 										<li type="disc">Profesionales que buscan su primer trabajo.</li><br>
 										<li type="disc">Profesionales Extranjeros que buscan oportunidades laborales en Chile.</li><br>
 									</ul>
-
-									<div align="center"> <img src="img/img2.PNG"  class="img-fluid img-responsive" alt="Responsive image"></div>
+									
+									<div align="center" style="margin-bottom:-70px;"> <img src="img/img2.PNG"  class="img-fluid img-responsive" alt="Responsive image"></div>
 
 							</div>
 							
@@ -159,12 +160,12 @@
 				</div>
 			</div>
 		</section><br>
-		<section id="features" ">
+		<section id="features" >
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="title3" style="margin-top: -100px;">
-								<h2>¿Por qué elegir Entrevista de Trabajo Chile?</h2>
+							<div class="" style="margin-top:-100px; " >
+								<h2 style="color:white; padding-top:10px; text-align:center;padding-bottom:10px; padding-left:10px; padding-right:10px;">¿Por qué elegir Entrevista de Trabajo Chile?</h2><br>
 							</div>
 							<div class="block">
 								<div class="container">
@@ -186,9 +187,9 @@
 
 										<div align="center">
 												
-												<h2>¿No estás en Santiago?</h2><br>
+										<h2 style="color:white; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;">¿No estás en Santiago?</h2><br>
 												<img src="img/skype.png" style="width: 300px;height: 130px;" class="img-fluid img-responsive" alt="Responsive image"><br>
-												<h3 style="color:#00aff0;">Te asesoramos vía Skype</h3>
+												<h3 style="color:#00aff0;">Te asesoramos vía Skype</h3><br><br>
 										</div>
 								</div>
 								
@@ -198,11 +199,9 @@
 				</div>
 			</section><br><br>
 			
-			<div class="container">
 			<?php
-				include ("contacto1.php");
-			?>
-			</div>
+    include ("contacto1.php");
+    ?>
 		<!-- Footer -->
 			<?php
 			include ("footer.php");
