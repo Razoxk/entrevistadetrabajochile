@@ -11,7 +11,7 @@
 							 Servicios
 							</a>
 							
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style=" width: 250px;margin: auto;padding-left:10px;">
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style=" width: 250px;padding-left:5%;">
 							  <a class="dropdown-item" href="servicio1.php" style="padding-left: 10px;">Entrevista de trabajo</a><br>
 							  <a class="dropdown-item" href="servicio2.php" style="padding-left: 10px;">Plan de búsqueda de trabajo</a><br>
 							  <a class="dropdown-item" href="servicio3.php" style="padding-left: 10px;">Evaluación Psicológica</a><br>

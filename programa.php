@@ -92,7 +92,7 @@ include ("header.php");
 
                 <div class="row"  style="opacity: 0.7;background-color:#1976d2;">
                 <div class="col-md-6"style="margin:auto;"><h2 style="color:white;"> <br> Programa 3</h2><br><h4 class="jus" style="text-align:center;color:white;">Evaluación Psicológica con Test + Diseño de CV +<br>  
-                                                                                                                                Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin.
+                                                                                                                                Plan de Búsqueda deTrabajo. Entrenamiento en Linkedin. <br>
                                                                                                                                 (2 sesiones - Duración Total: 3,5 hrs.) <br>
                                                                                                                                 </h4></div>
                 <div class="col-md-6" style="margin:auto;"><h2 style="color:white;"> <br> Programa 4</h2><br><h4 class="jus" style="text-align:center;color:white;">Preparación Entrevista de Trabajo + <br>

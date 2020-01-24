@@ -68,7 +68,7 @@ include ("header.php");
 	<div class="wrapper">	
 
 
-        <section id="team">
+        <section id="team" style="margin-bottom:-150px;">
 		<div class="container" style="margin-top:-30.5px;">
 				<div class="row">
 					<div class="title">
@@ -146,7 +146,7 @@ include ("header.php");
 								<br><br>
 						</div>
 					</div>
-					<div class="col-md-12 col-sm-12 col-xs-12" style="">
+					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="block wow fadeInLeft" data-wow-delay=".3s">
 								
 
@@ -165,7 +165,7 @@ include ("header.php");
 					</div>
 				</div>
 			</div>
-        </section>
+        </section >
 		<?php
     include ("contacto1.php");
     ?>

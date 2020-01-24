@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>entrevistadetrabajochile.cl/</title>
+<!--		<script src='https://www.google.com/recaptcha/api.js' async defer >-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- google fonts -->

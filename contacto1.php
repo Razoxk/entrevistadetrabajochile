@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="css/captcha.css">
+
 <section id="contact-form">
 			<div class="container">
 				<div class="row">
@@ -5,14 +7,77 @@
 						<h2>Contacto</h2>
 					</div>				
 					<div class="col-md-6">
-						<form id="contacto-form" method="POST" action="mailler.php">
+						<form id="contacto-form" method="POST" action="mailler.php" onsubmit="return checkform(this);">
                             <input type="text" class="form-control" name="txtnombre"placeholder="Nombre (*)">
 							<input type="text" class="form-control" name="txtcorreo" placeholder="Correo (*)">
 							<input type="text" class="form-control" name="txtnumero" placeholder="Telefono">
 							<textarea class="form-control" rows="3" name="txtmensaje" placeholder="Mensaje (*)"></textarea>
 							<h3>(*) Campos Obligatorios</h3>
+<!-- CAPTCHA -->
+<br>
+<div class="capbox">
+<div id="CaptchaDiv"></div>
+<div class="capbox-inner">
+Escriba el numero indicado arriba:<br>
+
+<input type="hidden" id="txtCaptcha">
+<input type="text" name="CaptchaInput" id="CaptchaInput" size="10"><br>
+
+</div>
+</div>
+<br><br>
+<!-- CAPTCHA -->
+
                             <button class="btn btn-default" type="submit" onclick='alert("Hemos recibido su mensaje. Le contactaremos a la brevedad.")'>Enviar</button><br><br>
                         </form>
+<script type="text/javascript">
+
+// Captcha Script
+
+function checkform(theform){
+var why = "";
+
+if(theform.CaptchaInput.value == ""){
+why += "- Please Enter CAPTCHA Code.\n";
+}
+if(theform.CaptchaInput.value != ""){
+if(ValidCaptcha(theform.CaptchaInput.value) == false){
+why += "- The CAPTCHA Code Does Not Match.\n";
+}
+}
+if(why != ""){
+alert(why);
+return false;
+}
+}
+
+var a = Math.ceil(Math.random() * 9)+ '';
+var b = Math.ceil(Math.random() * 9)+ '';
+var c = Math.ceil(Math.random() * 9)+ '';
+var d = Math.ceil(Math.random() * 9)+ '';
+var e = Math.ceil(Math.random() * 9)+ '';
+
+var code = a + b + c + d + e;
+document.getElementById("txtCaptcha").value = code;
+document.getElementById("CaptchaDiv").innerHTML = code;
+
+// Validate input against the generated number
+function ValidCaptcha(){
+var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
+if (str1 == str2){
+return true;
+}else{
+return false;
+}
+}
+
+// Remove the spaces from the entered and generated code
+function removeSpaces(string){
+return string.split(' ').join('');
+}
+</script>
+
 					</div>
 					<div class="col-md-6">
 						<!-- map -->				
@@ -26,3 +91,5 @@
 				</div>
 			</div>
 		</section>
+
+
