@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 	<html lang="en">
 	<head>
+	<style>
+	h2{
+	background-color: #1976d2;
+		
+	}
+	
+	#heading { color: #110E0D; }
+  </style>
+
+<!-- HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
 		<meta charset="UTF-8">
 		<title>entrevistadetrabajochile.cl/</title>
 <!--		<script src='https://www.google.com/recaptcha/api.js' async defer >-->
@@ -89,9 +100,15 @@
 							<div class="block">
 								<div class="container">
 								<div class="title"></div>
-										<p>Empresa formada en 2011 por Psicólogas Laborales – Head Hunters<br>
+
+								           <FONT SIZE=3 id="heading">Empresa formada en 2011 por Psicólogas Laborales – Head Hunters<br>
+										A la fecha, 2500 profesionales han confiado en nuestra amplia Expertise en temas de Empleabilidad</font><br></br> <!--Color Y tamaños de Letra Parrafo Inicial-->
+									
+
+										<!--<h5 id="heading">Empresa formada en 2011 por Psicólogas Laborales – Head Hunters<br>
 										A la fecha, 2500 profesionales han confiado en nuestra amplia Expertise en temas de Empleabilidad
-										</p><br>
+										</h5><br>-->
+
 										<p class="jus">
 										<h4 class="hidden">Conocimiento del Mercado:</h4>
 										Contamos con <strong>20 años de experiencia</strong> en Procesos de Búsqueda y Selección y somos expertas en el desarrollo de estrategias de Empleabilidad dirigidas a Ejecutivos y Profesionales que buscan trabajo en Chile o un Cambio Laboral. 
@@ -107,17 +124,7 @@
 						</div>
 					</div>
 				</div>
-			</section><br><br>
-
-
-
-
-
-
-
-
-
-
+			</section> <br><br>
 
 
 
@@ -131,7 +138,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="title3" style="margin-top: -80px;">
-							<h2 >¿A quiénes está dirigido?</h2>
+							<h2 style="color:white; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;  "  >¿A quiénes está dirigido?</h2>
 						</div>
 						<div class="block">
 							<div class="container">
