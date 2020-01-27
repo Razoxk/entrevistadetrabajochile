@@ -9,7 +9,11 @@
 	
 	#heading { color: #110E0D; }
   </style>
-  style="color:white; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;
+ 
+	
+			
+
+
 
 <!-- HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
 
